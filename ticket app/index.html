@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ticket App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="cinema.jpg" alt="" />
+    <div class="main">
+      <div class="container" id="container">
+        <div class="screen"></div>
+        <div class="row-1" id="row-1">
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="fullSeat" id="fullSeat"></div>
+          <div class="fullSeat" id="fullSeat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+        </div>
+        <div class="row-2" id="row-2">
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+        </div>
+        <div class="row-3" id="row-3">
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="fullSeat" id="fullSeat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="fullSeat" id="fullSeat"></div>
+          <div class="seat" id="seat"></div>
+        </div>
+        <div class="row-4" id="row-4">
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+        </div>
+        <div class="row-5" id="row-5">
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+          <div class="seat" id="seat"></div>
+        </div>
+        <div class="movieList" id="movieList">
+          <select name="" id="select">
+            <option value="5" id="movie">Movie 1</option>
+            <option value="7" id="movie">Movie 2</option>
+            <option value="10" id="movie">Movie 3</option>
+          </select>
+        </div>
+        <div class="infoArea">
+          <div class="buttonAndP">
+            <div class="selectedSeat" id="selectedSeatIcon"></div>
+            <small>Selected</small>
+          </div>
+          <div class="buttonAndP">
+            <div class="seatInfo"></div>
+            <small>Empty Seat</small>
+          </div>
+          <div class="buttonAndP">
+            <div class="fullSeatInfo"></div>
+            <small>Full Seat</small>
+          </div>
+        </div>
+        <div class="totalArea">
+          <p class="totalAreaSeatParagraph">
+            The fee calculated for
+
+            <span id="totalSelectedSeats" class="totalSelectedSeats">0</span>
+            seats is
+            <span class="totalPrice" id="totalPrice">0</span>
+            $
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
